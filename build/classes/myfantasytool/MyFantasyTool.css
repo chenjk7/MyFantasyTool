@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2018, 8:36:31 PM
+    Author     : chenjk
+*/
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-padding:0;    
+}
+.table-view .column-header {
+    -fx-font-size: 9pt;    
+}
+.table-row-cell {   
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-border-color: #efefef;
+    -fx-font-weight: bold;
+   }
+.Tableview_Player_Drafted {       
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #ffa59b;
+}
+.TierListview_Player_RB{       
+    -fx-font-size: 8pt;
+    -fx-background-insets: 0;
+    -fx-padding: 1;
+}
+.TierListview_Player_RB:selected {
+    -fx-background-color: #0096C9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.list-view:filled {
+    -fx-background-insets: 0;
+    -fx-padding: 1;    
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.Table_Listview_Player_Find:selected {
+    -fx-background-color: #0096C9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.TierListview_Color{       
+   -fx-font-weight: bold;
+   -fx-text-fill: #0054db ;       
+}
+.table-row-cell:filled {   
+    -fx-font-size: 9pt;
+}
+.table-row-cell:selected {    
+    -fx-background-color: #2dc42f;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.WR_Player_Color {
+    -fx-background-color: #00FC41;
+}
+.RB_Player_Color {
+    -fx-background-color: #00FFFF;
+}
+.TE_Player_Color {
+    -fx-background-color: #FF2FF9;
+}
+.QB_Player_Color {
+    -fx-background-color: #FFFA42;
+}
+.K_Player_Color {
+    -fx-background-color: #EF8C42;
+}
+.DST_Player_Color {
+    -fx-background-color: #B7B7B7;
+}
