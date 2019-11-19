@@ -16,8 +16,8 @@ Create TierList
 3. To Clear all the Tier, File -> Clear TierLists
 
 Draft Player for your own team list
-1. Select the player name, click "Draft" button, 
+1. Select the player name, click "Draft" button,
 2. To undraft, select player in the drafted list, click "Undraft" button
 
-
-
+Tutorial:
+![](Tutorial.gif)
