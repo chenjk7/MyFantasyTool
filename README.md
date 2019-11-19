@@ -21,3 +21,4 @@ Draft Player for your own team list
 
 Tutorial:
 ![](Tutorial.gif)
+[Full Tutorial video](https://streamable.com/dof9o)
