@@ -36,12 +36,12 @@ public class CSVParser {
                     if (!playerlist[0].equals("Rank")){
                         Integer rank=Integer.parseInt(playerlist[0]);
                         String None=" ";
-                        content.add(new Playerlist(rank, playerlist[2], playerlist[4], playerlist[3], playerlist[5], None,cnt));
+                        content.add(new Playerlist(rank, playerlist[3], playerlist[5], playerlist[4], playerlist[6], None,cnt));
                         cnt++;
                     }
                 }
             }
-            System.out.print("done");
+            System.out.println("done");
         } catch (FileNotFoundException e) {
           //Some error logging
             System.out.println(e);

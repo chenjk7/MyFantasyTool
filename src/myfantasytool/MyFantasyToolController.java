@@ -767,17 +767,19 @@ private void TableviewPlaercallback(){
                     
                     if (item != null){
                         String tempitem=item.replaceAll("\\.", "");
+                        
                         tempitem=tempitem.replaceAll("\\'", "");
                         String [] name=tempitem.split(" ");
                         myHyperlink = new Hyperlink();
                         myHyperlink.setText(item);
-                                                                        
+                        
                         myHyperlink.setOnAction(e -> {
                             if(Desktop.isDesktopSupported())
                             {
                                 System.out.println("len "+name.length);
                                 try {                             
                                     if(item.contains("David Johnson")){
+//                                        https://www.fantasypros.com/nfl/players/christian-mccaffrey.php
                                         Desktop.getDesktop().browse(new URI("https://www.fantasypros.com/nfl/players/"+name[0].toLowerCase()+"-"+name[1].toLowerCase()+"-rb"+".php"));
                                     }
                                     else if(item.contains("Odell Beckham")){
@@ -1355,7 +1357,7 @@ private void OpenPlayerProfile(String text, String link){
 
                 }
             }
-   
+    
     TableviewPlaercallback();
    
     Tableview_POS.setCellFactory(column -> {

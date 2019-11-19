@@ -43,7 +43,7 @@ public class MyFantasyTool extends Application {
         Scene scene = new Scene(root);
         scene.getStylesheets().add("MyFantasyTool.css");
         mainstage.setScene(scene);
-        mainstage.setTitle("Soso Fantasy Football Tool");
+        mainstage.setTitle("IBM Fantasy Football Tool");
         mainstage.show();
         if(devMode){
             System.out.println("dev mode");
@@ -60,19 +60,20 @@ public class MyFantasyTool extends Application {
 		MenuToolkit tk = MenuToolkit.toolkit();
 
 		MenuBar bar = new MenuBar();
-
+                //----------------------------------------------
 		MenuItem item1 = new MenuItem("Item1");
 		MenuItem item2 = new MenuItem("Item2");
-		
-		
-
+//		
+//		
+//
 		MenuItem item4 = tk.createQuitMenuItem("my app");
-
+//
 		Menu menu2 = new Menu("Menu2");
 		menu2.getItems().add(item2);
-		
+//		
                 Menu menu1 = new Menu("Menu1");
-		menu1.getItems().addAll(item1, menu2, item4);
+		menu1.getItems().addAll( item4);
+                //----------------------------------------------
 
 		Menu MenuList = new Menu("File");
 		MenuList.getItems().addAll(LoadRankingFile,SaveTierList,ReloadList);
