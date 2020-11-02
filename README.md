@@ -20,5 +20,5 @@ Draft Player for your own team list
 2. To undraft, select player in the drafted list, click "Undraft" button
 
 Tutorial:
-![](Tutorial.gif)
+![](Tutorial.gif) pull request test
 [Full Tutorial video](https://streamable.com/dof9o)
