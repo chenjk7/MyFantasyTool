@@ -6,7 +6,7 @@ How to use this tool
 4. Click the Start button on the right upper corner
 5. Double click the player that is drafted during the draft process, it will turn red to keep track of who is not drafted
 5. Click "Available" button to only show the current undraft players
-
+5
 
 Create TierList
 1. Click the first Player in the column to create the tier 1,
